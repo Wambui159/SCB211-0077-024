@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #35424a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+  }
+  
+  .hero img {
+    display: none; /* In case you want to use the img tag or background image */
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e8491d;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Intro, About, Recipe Sections */
+  .intro, .about, .recipe {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro h2, .about h2, .recipe h2 {
+    margin-top: 0;
+  }
+  
+  .skills, .fun-facts, .social {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li, .fun-facts li, .social li {
+    margin: 5px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #35424a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    .hero {
+      height: 300px;
+    }
+  }
+  
